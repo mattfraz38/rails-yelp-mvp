@@ -1,0 +1,6 @@
+<%= simple_form_for [@restaurant] do |f| %>
+  <%= f.input :name, placeholder: "McDonalds" %>
+  <%= f.input :category %>
+  <%= f.input :address, placeholder: "123 West Street"%>
+  <%= f.submit "Submit", class: "btn btn-primary" %>
+<% end %>
